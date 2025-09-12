@@ -18,9 +18,9 @@ def get_requirements(file_path:str)->list[str]:
 
 setup(
 
-name='mlproject',
+name='Student_Exam_Performance_Prediction',
 version='0.0.1',
-author='kashinath Biradar',
+author='Kashinath Biradar',
 author_email='biradarkashi00@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt'),
